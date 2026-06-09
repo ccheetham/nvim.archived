@@ -1,7 +1,6 @@
-
 vim.pack.add({ {
-  src = 'https://github.com/stevearc/conform.nvim',
-}})
+  src = github 'stevearc/conform.nvim',
+} })
 
 require('conform').setup({
   formatters = {

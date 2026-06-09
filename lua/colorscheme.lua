@@ -1,5 +1,5 @@
 vim.pack.add({ {
-  src = 'https://github.com/catppuccin/nvim',
+  src = github 'catppuccin/nvim',
   name = 'catppuccin',
-}})
+} })
 vim.cmd.colorscheme('catppuccin-macchiato')

@@ -1,6 +1,6 @@
 vim.pack.add({ {
-  src = 'https://github.com/neovim/nvim-lspconfig',
-}})
+  src = github 'neovim/nvim-lspconfig',
+} })
 
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(args)
