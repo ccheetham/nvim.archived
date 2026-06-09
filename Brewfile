@@ -1,3 +1,3 @@
 brew "bash-language-server"
-brew "lua-language-server"
+brew "emmylua_ls"
 brew "shfmt"
