@@ -17,6 +17,7 @@ require('conform').setup({
   format_on_save = function(bufnr)
     local enabled_fts = {
       bash = true,
+      lua = true,
       sh = true,
       zsh = true,
     }
