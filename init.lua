@@ -1,5 +1,6 @@
 require 'options'
 require 'keymaps'
+require 'auto-commands'
 require 'colorscheme'
 require 'lsp'
 require 'format'
