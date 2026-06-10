@@ -21,6 +21,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end
 })
 
+require(submod(..., 'clangd'))
 require(submod(..., 'json'))
 require(submod(..., 'lua'))
 require(submod(..., 'sh'))

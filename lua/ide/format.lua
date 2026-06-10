@@ -7,12 +7,14 @@ require('conform').setup({
     }
   },
   formatters_by_ft = {
+    c = { 'clang_format' },
+    cpp = { 'clang_format' },
     sh = { 'shfmt' },
     bash = { 'shfmt' },
     zsh = { 'shfmt' }
   },
   format_on_save = function (bufnr)
-    local enabled_fts = { bash = true, json = true, lua = true, sh = true, zsh = true }
+    local enabled_fts = { bash = true, c = true, cpp = true, json = true, lua = true, sh = true, zsh = true }
     if enabled_fts[vim.bo[bufnr].filetype] then
       return { timeout_ms = 500, lsp_fallback = true }
     end
