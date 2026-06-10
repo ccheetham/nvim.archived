@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "SchemaStore.nvim": {
+      "rev": "961c2a806abf56d4e100713ec9dc71d2c8d9d022",
+      "src": "https://github.com/b0o/SchemaStore.nvim"
+    },
     "catppuccin": {
       "rev": "0303a7208dba448c459767486a38a6ec05c4216b",
       "src": "https://github.com/catppuccin/nvim"

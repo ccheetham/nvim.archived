@@ -1,7 +1,7 @@
 require 'functions'
+require 'plugins'
 require 'options'
 require 'keymaps'
 require 'auto-commands'
 require 'colorscheme'
 require 'ide'
-require 'plugins'
