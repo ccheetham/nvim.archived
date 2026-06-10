@@ -6,7 +6,8 @@ require('nvim-treesitter').install({
   'bash',
   'json',
   'lua',
-  'zsh'
+  'yaml',
+  'zsh',
 })
 
 -- below from:
