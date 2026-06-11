@@ -7,8 +7,6 @@ require('conform').setup({
     }
   },
   formatters_by_ft = {
-    c = { 'clang_format' },
-    cpp = { 'clang_format' },
     sh = { 'shfmt' },
     bash = { 'shfmt' },
     zsh = { 'shfmt' }
