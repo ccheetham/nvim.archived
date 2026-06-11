@@ -4,6 +4,8 @@ vim.pack.add({
 
 require('nvim-treesitter').install({
   'bash',
+  'c',
+  'cpp',
   'json',
   'lua',
   'yaml',
