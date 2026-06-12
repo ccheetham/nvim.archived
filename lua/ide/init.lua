@@ -15,5 +15,6 @@ vim.diagnostic.config {
 }
 
 require(submod(..., 'treesitter'))
-require(submod(..., 'lsp'))
 require(submod(..., 'format'))
+require(submod(..., 'coding'))
+require(submod(..., 'debugging'))
